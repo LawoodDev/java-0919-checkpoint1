@@ -1,4 +1,4 @@
-class Student {
+public class Student {
 
     // TODO hasLegalAge
 

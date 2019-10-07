@@ -21,13 +21,34 @@ Dans ton dépôt local, crée une branche ayant le format suivant : ta ville en 
 > Conseil : ajoute et envoie tes modifications en local après chaque exercice, pour éviter les mauvaises surprises
 
 ### 2. .gitignore
-Trouve et modifie le fichier *.gitignore* de la racine du projet, afin d'ignorer tous les fichiers dont l'extension est ".class".
 
-Si jamais tu as versionné des fichiers ".class" avant d'avoir fait la modification du *.gitignore*, retire-les du dépôt.
+Trouve et modifie le fichier *.gitignore* de la racine du projet, afin d'ignorer tous les fichiers dont l'extension est `.class`.
 
 ## II. HTML/CSS
 
-TODO
+Tu trouveras un dossier `web` dans la racine de ton dépôt local.
+
+Tu as été embauché pour réaliser l'intégration de la page d'accueil du site de la Wild Code School !
+
+La structure du fichier *index.html* est déjà présente, tu vas donc devoir modifier le fichier *style.css* afin que le site s'affiche de la façon suivante (tu retrouveras les images dans le dossier `templates`) :
+
+* [Version mobile](./templates/template-mobile.png)
+* [Version desktop (>= 768px)](./templates/template-desktop.png)
+
+#### Les couleurs à utiliser sont les suivantes :
+
+* "#39424E" : couleur par défaut du texte et de fond du pied-de-page
+* "#F76C6C" : couleur de fond du bouton "Apply now"
+
+#### Attention de respecter les points suivant : 
+
+* ne pas modifier la structure du HTML, sauf pour ajouter des classes
+* créer l'intégration en *mobile first*
+* n'utiliser que des *flex box* pour positionner des éléments
+* la version desktop s'affiche pour les résolutions **768px** et supérieure
+* en version desktop, les colonnes des trois articles font **250px** de large et doivent être espacée en "space-around"
+* ne pas supprimer le code déjà présent dans *style.css*
+* tu n'as pas à ajouter ou modifier de taille de police (*font-size*) : tout est déjà configuré.
 
 ## III. Algorithmes
 
@@ -63,13 +84,13 @@ Pour compiler et exécuter la classe `StudentTest`, tu peux utiliser le script *
 
 ## IV. Quiz
 
-Compile et exécute le fichier `Quiz.java` présent dans la racine du projet.
+Tu trouveras un dossier `quiz` dans la racine de ton dépôt local : compile et exécute le fichier `Quiz.java`.
 
 Réponds aux questions, cela va générer un fichier `quiz.txt`.
 
 Tu peux ensuite éditer le fichier manuellement pour corriger tes réponses.
 
-Merci de répondre honnêtement, sans t'aider d'Internet :)
+> Merci de répondre honnêtement, sans t'aider d'Internet !
 
 ## V. Finalisation
 
