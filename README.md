@@ -14,7 +14,7 @@ Le checkpoint est un moyen de t'autoévaluer, de te montrer de quoi tu es capabl
 
 Récupère le contenu de ce dépôt en local.
 
-Dans ton dépôt local, crée une branche ayant le format suivant : ton prénom et nom sans accents ni espaces, séparés par des tirets, avec le nom en majuscule. Exemple : pour **Éloïse Durant**, crée une branche **eloise-DURANT**.
+Dans ton dépôt local, crée une branche ayant le format suivant : ta ville en minuscule, ton prénom et nom sans accents ni espaces, séparés par des tirets, avec le nom en majuscule. Exemple : pour **Éloïse Durant**, crée une branche **lyon-eloise-DURANT**.
 
 **Passe sur cette branche pour la suite du *checkpoint* !**
 
