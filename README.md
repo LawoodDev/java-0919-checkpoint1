@@ -30,10 +30,12 @@ Tu trouveras un dossier `web` dans la racine de ton dépôt local.
 
 Tu as été embauché pour réaliser l'intégration de la page d'accueil du site de la Wild Code School !
 
-La structure du fichier *index.html* est déjà présente, tu vas donc devoir modifier le fichier *style.css* afin que le site s'affiche de la façon suivante (tu retrouveras les images dans le dossier `templates`) :
+La structure du fichier *index.html* est déjà présente, tu vas donc devoir modifier le fichier *style.css* afin que le site s'affiche de la façon suivante :
 
 * [Version mobile](./templates/template-mobile.png)
 * [Version desktop (>= 768px)](./templates/template-desktop.png)
+
+> Tu trouveras aussi  ces deux images dans le dossier `templates`
 
 #### Les couleurs à utiliser sont les suivantes :
 
