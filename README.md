@@ -86,7 +86,7 @@ Pour compiler et exécuter la classe `StudentTest`, tu peux utiliser le script *
 
 ## IV. Quiz
 
-Tu trouveras un dossier `quiz` dans la racine de ton dépôt local : compile et exécute le fichier `Quiz.java`.
+Tu trouveras un fichier `Quiz.java` à la racine de ton dépôt local : compile et exécute le.
 
 Réponds aux questions, cela va générer un fichier `quiz.txt`.
 

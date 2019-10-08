@@ -4,8 +4,8 @@ Quelle commande me permet de créer un dépôt local à partir d'un dépôt dist
 Comment vérifier l'état de l'index de son dépôt local ?
 Quel enchaînement de commandes me permet de partager une version de code sur GitHub ?
 Comment afficher la liste des commits effectués sur la branche en cours ?
-Quelle commande permet d'ouvrir la racine de l'arborescence ?
-Quelle commande permet d'ouvrir le dossier personnel de l'utilisateur courant ?
+Quelle commande permet de se placer à la racine du système de fichier ?
+Quelle commande permet de se placer dans le dossier personnel de l'utilisateur courant ?
 Comment effacer l'écran de son terminal ?
 Quelle commande permet de créer un fichier vide `README.md` ?
 Quelle commande permet de supprimer un répertoire et tous les fichiers qu'il contient ?
