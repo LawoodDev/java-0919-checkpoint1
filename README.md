@@ -12,7 +12,7 @@ Le checkpoint est un moyen de t'autoévaluer, de te montrer de quoi tu es capabl
 
 ### 1. Dépôt local
 
-Récupère le contenu de ce dépôt en local.
+Récupère le contenu de ce dépôt en local. **Ne fait pas de Fork !**
 
 Dans ton dépôt local, crée une branche ayant le format suivant : la ville de ton cursus en minuscule, ton prénom et nom sans accents ni espaces, séparés par des tirets, avec le nom en majuscule. Exemple : pour **Éloïse Durant**, crée une branche **lyon-eloise-DURANT**.
 
