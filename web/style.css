@@ -1,27 +1,153 @@
 /* Don't touch this ! */
+
 html {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
 }
-body, h1, h2, h3, ul, li, a, p {
+
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+a,
+p {
     margin: 0;
     padding: 0;
 }
-h2, h3 {
+
+h2,
+h3 {
     font-size: 1em;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 article p {
     font-size: 0.8em;
     padding: 10px;
 }
+
 footer {
     font-size: 0.8em;
 }
 
+
 /* Your code here */
+
+html {
+    color: #39424E;
+}
+
+nav a {
+    color: #39424E;
+}
+
+footer a {
+    color: white;
+}
+
+header>section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header>section>nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 1.5em;
+}
+
+header>section>nav>ul>li {
+    list-style: none;
+    padding: 0.4em;
+}
+
+section#desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#desc a {
+    color: white;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section#desc>a {
+    padding: 5px 1em;
+    border: 3px solid #F76C6C;
+    border-radius: 50px;
+    background-color: #F76C6C;
+}
+
+#articles {
+    padding: 0px 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #39424E;
+    color: white;
+}
+
+footer>#footerinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer>#footerinfo>ul {
+    list-style: none;
+    padding: 5px;
+}
+
+footer>#footerinfo>ul>li:first-child {
+    font-weight: bold;
+}
+
+footer section {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Rédigez vos propriétés CSS ici */
+    header>section {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    #articles {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #articles>article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+        text-align: center;
+    }
+    footer>#footerinfo {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
