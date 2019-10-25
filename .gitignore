@@ -2,3 +2,4 @@
 .vsc
 *.iml
 *.java
+out/
